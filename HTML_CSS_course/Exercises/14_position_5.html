@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discord challenge</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .channels-sidebar {
+      background-color: #1f2125;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      /* width: 80px; */
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .info-sidebar {
+      background-color: #2f3135;
+      position: fixed;
+      left: 70px;
+      top: 0;
+      bottom: 0;
+      width: 150px;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .channel-img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 25px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .headline {
+      color: white;
+      font-size: 14px;
+    }
+
+    .plus {
+      color: gray;
+      font-size: 25px;
+    }
+
+    .text-channel {
+      color: gray;
+      margin-bottom: 16px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="channels-sidebar">
+    <div>
+      <img class="channel-img" src="images/cat.jpg">
+    </div>
+    <div>
+      <img class="channel-img" src="images/dog.jpg">
+    </div>
+    <div>
+      <img class="channel-img" src="images/cat2.jpg">
+    </div>
+
+   
+  </div>
+  <div class="info-sidebar">
+    <div class="info">
+      <p class="headline">INFO</p>
+      <p class="plus">+</p>
+    </div>
+    <div class="text-channels">
+      <p class="text-channel"># new-videos</p>
+      <p class="text-channel"># updates</p>
+      <p class="text-channel"># faq</p>
+    </div>
+  </div>
+  
+</body>
+</html>

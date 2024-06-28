@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modal exercise</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .right-sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+    }
+
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .modal {
+      background-color: white;
+      font-family: Arial;
+      width: 300px;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .modal-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .modal-content {
+      margin-bottom: 12px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="right-sidebar">right sidebar</div>
+  
+  <div class="overlay">
+    <div class="modal">
+      <p class="modal-title">Modal Title</p>
+      <p class="modal-content">This is a modal</p>
+      <button>Close</button>
+    </div>
+  </div>
+</body>
+</html>

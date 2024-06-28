@@ -1,0 +1,116 @@
+.task-5e {
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.new-alert {
+  color: rgb(245, 99, 0);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.promo {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cost {
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.buy-btn {
+  background-color: rgb(0, 113, 227);
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 5f */
+.task-5f {
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.price {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.currency {
+  font-size: 16px;
+  color: gray;
+}
+
+.change {
+  color: green;
+  margin-bottom: 8px;
+}
+
+.after-hours {
+  color: gray;
+}
+
+.after-hours-change {
+  color: rgb(182, 0, 0);
+}
+
+/* 5g */
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.author-when {
+  font-weight: 400;
+  color: gray;
+  font-size: 18px;
+}
+
+.advice {
+  width: 600px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.solution {
+  width: 500px;
+  font-size: 18px;
+}
+
+.link {
+  color: rgb(0, 170, 255);
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

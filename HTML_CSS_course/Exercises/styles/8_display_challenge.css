@@ -1,0 +1,82 @@
+.first-name, .last-name, .email {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.first-name {
+  width: 131px;
+}
+
+.last-name {
+  width: 131px;
+}
+
+.email {
+  display: block;
+  width: 300px;
+}
+
+.sign-up-btn {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 334px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.pickup, .destination {
+  font-family: Arial;
+  display: block;
+  width: 400px;
+  padding: 15px 20px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  font-size: 16px;
+}
+
+.pickup {
+  margin-bottom: 10px;
+}
+
+.destination {
+  margin-bottom: 35px;
+}
+
+.request {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 15px 25px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-family: Arial;
+}
+
+.later {
+  font-family: Arial;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  font-size: 16px;
+  padding: 15px 25px;
+  cursor: pointer;
+}

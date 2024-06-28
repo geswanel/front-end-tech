@@ -1,0 +1,85 @@
+/* .linkedin-signup, .twitter-text-box {
+  border-width: 1px;
+  border-color: red;
+  border-style: solid;
+} */
+
+p, input, button {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email-text {
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 10px;
+}
+
+.email-textbox {
+  font-size: 16px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  width: 400px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+
+.btn-note {
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 20px;
+}
+
+.agree-btn {
+  background-color: #2c64b6;
+  font-size: 20px;
+  color: white;
+  border: none;
+  width: 400px;
+  border-radius: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* Tweet challenge */
+.twitter-text-box {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.post-bar {
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  vertical-align: middle;
+}
+
+.post-btn {
+  background-color: #4a99e4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}

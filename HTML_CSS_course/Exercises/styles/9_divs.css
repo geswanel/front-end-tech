@@ -1,0 +1,49 @@
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green-circle {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+}
+
+.service-question {
+  border-style: solid;
+  border-width: 1px;
+  width: 300px;
+  border-color: rgb(200, 200, 200);
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.question {
+  font-family: Arial;
+}
+
+.youtube-music {
+  width: 360px;
+  background-color: rgb(33, 33, 33);
+  padding: 20px 15px;
+}
+
+.youtube-title, .youtube-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+
+.youtube-title {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.youtube-text {
+  color: rgb(160, 160, 160);
+}
+

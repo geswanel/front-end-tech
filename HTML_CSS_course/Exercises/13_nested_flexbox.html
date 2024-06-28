@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Flexbox Practice</title>
+  <link rel="stylesheet" href="styles/13_nested_flexbox.css">
+</head>
+<body>
+  <div style="
+    display: flex;
+    height: 50px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+      <p style="background-color: black; color: white;">item1</p>
+    </div>
+    <div style="
+      background-color: lightpink;
+      width: 200px;
+    ">
+    </div>
+  </div>
+  
+  <div style="
+    display: flex;
+    height: 50px;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+    </div>
+    <div style="
+      background-color: lightpink;
+      width: 200px;
+    ">
+      <p>row1</p>
+      <div style="
+        display: flex;
+        justify-content: space-between;
+      ">
+        <p style="background-color: black; color: white;">row2</p>
+        <p style="background-color: black; color: white;">row2</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <h2>Challenge</h2>
+  <img src="images/13_c_layout.png">
+
+  <div class="messages">
+    <p class="inbox-type">
+      ALL INBOXES
+    </p>
+    <div class="chat">
+      <img class="profile-picture" src="images/cat.jpg">
+      <div class="info">
+        <div class="user-info">
+          <p class="sender">
+            Chewy Promotions
+          </p>
+          <p class="time">
+            4:58 PM
+          </p>
+        </div>
+        <p class="topic">
+          Biggest slace of the year!
+        </p>
+        <p class="message-preview">
+          Hey there! We're writing to tell you about our...
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <div class="messages">
+    <p class="inbox-type">
+      ALL INBOXES
+    </p>
+    <div class="chat">
+      <img class="profile-picture" src="images/cat.jpg">
+      <div class="info">
+        <div class="user-info">
+          <p class="sender">
+            Chewy Promotions
+          </p>
+          <p class="time">
+            4:58 PM
+          </p>
+        </div>
+        <p class="topic">
+          Biggest slace of the year!
+        </p>
+        <p class="message-preview">
+          Hey there! We're writing to tell you about our...
+        </p>
+      </div>
+    </div>
+
+    <div class="chat">
+      <img class="profile-picture" src="images/dog.jpg">
+      <div class="info">
+        <div class="user-info">
+          <p class="sender">
+            Best Buy
+          </p>
+          <p class="time">
+            12:32 PM
+          </p>
+        </div>
+        <p class="topic">
+          Your Best Buy eReceipt!
+        </p>
+        <p class="message-preview">
+          Thank you for shopping at Best Buy, here is...
+        </p>
+      </div>
+    </div>
+
+    <div class="chat">
+      <img class="profile-picture" src="images/cat2.jpg">
+      <div class="info">
+        <div class="user-info">
+          <p class="sender">
+            Netflix
+          </p>
+          <p class="time">
+            9:00 AM
+          </p>
+        </div>
+        <p class="topic">
+          Here's what's comming soon to Netflix
+        </p>
+        <p class="message-preview">
+          Brand new movies and shows, old favorites...
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+  <img style="width: 600px;" src="images/13f_layout.png">
+
+  <div class="twitter-post">
+    <div>
+      <img class="twitter-profile-picture" src="images/cat2.jpg">
+    </div>
+    <div class="tweet-column">
+      <p class="t-username">supersimple.dev <span class="t-usertag">@SuperSimpleDev</span></p>
+      <p class="t-content">What is backend web development? A complete overview. New video is up!</p>
+      <div class="attached-video">
+        <div class="video-preview">
+        </div>
+        <div class="video-info">
+          <p class="video-source">youtube.com</p>
+          <p class="video-title">Backend web development - a complete overview (2021)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

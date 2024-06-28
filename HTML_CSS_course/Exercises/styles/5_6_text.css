@@ -1,0 +1,92 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tahoma-font {
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.sales-promo {
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sales-end {
+  font-family: Arial;
+  font-size: 18px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 100px;
+}
+
+.course-title {
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.course-note {
+  font-family: Verdana;
+  color: gray;
+  margin-bottom: 18px;
+}
+
+.course-description {
+  font-family: Verdana;
+  width: 300px;
+  margin-bottom: 18px;
+  line-height: 22px;
+}
+
+.course-btn {
+  background-color: #377d24;
+  font-family: Verdana;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.course-btn:hover {
+  background-color: #2b6819;
+}
+
+.course-btn:active {
+  opacity: 0.7;
+}
+
+.shopping-title {
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shopping-description {
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shopping-link {
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(0, 102, 255);
+  cursor: pointer;
+}
+
+.shopping-link:hover {
+  text-decoration: underline;
+}
