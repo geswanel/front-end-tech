@@ -273,3 +273,22 @@ Complete Course
     - position absolute, relative going to top. so we need to define z-index to them
 - Element below is higher
     - z-index (0) default
+- Making inline block to shring element.
+
+
+## 16 Finish Project
+- Sidebar
+- Seletor types
+    - element
+    - type
+    - combine
+        - several selectors
+        - descedant selector
+        - child selector
+- Modifying video
+- tooltips with transition
+    - pointer-events none
+        - disabling hovering on tooltip
+    - whitespace nowrap! property
+    - opacity
+- List of properties

@@ -1,7 +1,10 @@
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  padding-bottom: 3000px;
+  background-color: rgb(247, 247, 247);
 }
 
 p {

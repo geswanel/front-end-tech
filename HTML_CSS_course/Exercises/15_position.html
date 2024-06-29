@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .close-btn {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: black;
+      color: white;
+      padding: 10px 13px;
+      border-radius: 30px;
+    }
+
+    .bottom-right {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 320px;
+      height: 180px;
+      background-color: gray;
+    }
+
+    .close-btn-2 {
+      position: absolute;
+      left: -15px;
+      top: -15px;
+      background-color: black;
+      color: white;
+      padding: 10px 13px;
+      border-radius: 30px;
+    }
+
+    .timestamp {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      color: white;
+      background-color: black;
+      padding: 5px 8px;
+      font-size: 16px;
+      font-family: Arial;
+    }
+
+    .clothing {
+      position: relative;
+      width: 300px;
+      height: 300px;
+    }
+
+    .clothing-img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .discount {
+      position: absolute;
+      right: 0px;
+      top: 10px;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+
+    .add-to-cart {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .add-to-cart-btn {
+      font-size: 14px;
+      font-family: Arial;
+      background-color: white;
+      padding: 8px 15px;
+      cursor: cover;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="close-btn">
+    X
+  </div>
+  <div class="bottom-right">
+    <div class="close-btn-2">
+      X
+    </div>
+    <div class="timestamp">0:29</div>
+  </div>
+
+  <div class="clothing">
+    <img class="clothing-img" src="images/clothing.jpg">
+    <div class="discount">20% OFF</div>
+    <div class="add-to-cart">
+      <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
